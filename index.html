@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1920, user-scalable=no">
+    <title>KinoPub</title>
+    <link rel="stylesheet" href="css/app.css">
+    <script src="$WEBAPIS/webapis/webapis.js"></script>
+</head>
+<body>
+    <object id="av-player" type="application/avplayer"></object>
+    <div id="app">
+        <div id="ambient">
+            <canvas class="amb-layer" width="48" height="27"></canvas>
+            <canvas class="amb-layer" width="48" height="27"></canvas>
+            <div class="amb-shade"></div>
+        </div>
+        <div id="shell">
+            <nav id="sidebar" class="glass"></nav>
+            <main id="content"></main>
+        </div>
+        <div id="layers"></div>
+        <div id="player-root"></div>
+        <div id="modal-root"></div>
+        <div id="toast-root"></div>
+        <div id="loader"><div class="spinner"></div></div>
+    </div>
+
+    <script src="js/util.js"></script>
+    <script src="js/keys.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/age.js"></script>
+    <script src="js/status.js"></script>
+    <script src="js/screens/auth.js"></script>
+    <script src="js/screens/rows.js"></script>
+    <script src="js/screens/grid.js"></script>
+    <script src="js/screens/item.js"></script>
+    <script src="js/screens/episodes.js"></script>
+    <script src="js/screens/search.js"></script>
+    <script src="js/screens/library.js"></script>
+    <script src="js/screens/settings.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

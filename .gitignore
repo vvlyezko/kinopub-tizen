@@ -1,0 +1,30 @@
+# Ключ API (данные OAuth-клиента) — у каждого свой, см. README
+js/config.js
+
+# Собранные пакеты и подписи
+dist/
+*.wgt
+author-signature.xml
+signature*.xml
+
+# Сертификаты и профили подписи
+*.p12
+*.pwd
+profiles.xml
+
+# Служебные файлы Tizen SDK и редакторов
+.project
+.tproject
+.sign/
+.buildResult/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Системные
+Thumbs.db
+Desktop.ini
+.DS_Store
